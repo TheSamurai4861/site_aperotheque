@@ -68,7 +68,7 @@ li {
 .menu-section h2 {
     text-align: start;
     font-size: 1.3em;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(182, 53, 53);
 }
 
 .menu-item {
