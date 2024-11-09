@@ -70,6 +70,14 @@ li {
     margin: 10px 0;
 }
 
+.description {
+    width: 80%;
+}
+
+.price {
+    text-align: end;
+}
+
 .overlay {
     position: absolute;
     top: 0;
