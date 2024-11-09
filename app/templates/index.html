@@ -1,0 +1,407 @@
+{% extends "base.html" %}
+
+{% block title %}Menu de La Cave de l'Apérotèque{% endblock %}
+
+{% block content %}
+
+<h1>Notre carte</h1>
+<article class="menu">
+    <h2 id="nourriture">Carte nourriture</h2>
+    <div class="menu-section">
+        <h2>À partager</h2>
+        <div class="menu-item">
+            <div class="description">Planche mix, charcuteries, fromages, olives et toasts</div>
+            <div class="price">7.50 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Saucisson séché nature</div>
+            <div class="price">5.50 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Planche mix chaud et froid</div>
+            <div class="price">20 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">10 bitterballen</div>
+            <div class="price">6.50 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">10 mix (bitterballen et fricadelles)</div>
+            <div class="price">6.50 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Pain avec beurre et sauces</div>
+            <div class="price">5 €</div>
+        </div>
+    </div>
+
+    <div class="menu-section">
+        <h2>Les flammekueches (à partir de 18h)</h2>
+        <div class="menu-item">
+            <div class="description">La Nature - Crème, lardons, oignons</div>
+            <div class="price">10 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">La Gratinée - Crème, lardons, oignons, emmental</div>
+            <div class="price">11 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">La Forestière - Crème, lardons, oignons, champignons, emmental</div>
+            <div class="price">12 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">La Tomme - Crème, lardons, oignons, tomme d'Alsace, tomates cerises, jambon Forêt
+                Noire</div>
+            <div class="price">12 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">La Munster - Crème, lardons, oignons, munster, sirop ou cumin</div>
+            <div class="price">12 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">La Chèvre - Crème, lardons, oignons, tomme de chèvre miel-noix</div>
+            <div class="price">12 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">La Truite - Crème, truite fumée de la Commanderie, poireaux, courgettes</div>
+            <div class="price">14 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">La Végé - Crème, oignons, poivrons, courgettes, emmental</div>
+            <div class="price">10 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">La ALL-IN - Crème, lardons, oignons, poivrons, courgettes, champignons, munster,
+                sirop</div>
+            <div class="price">13 €</div>
+        </div>
+    </div>
+
+    <div class="menu-section">
+        <h2>Les plats</h2>
+        <div class="menu-item">
+            <div class="description">Munster au four - Salaison, pain et sirop</div>
+            <div class="price">14 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Pavé de boeuf au four à bois - Cuite au four à bois, frites, crudités</div>
+            <div class="price">26 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Potage à la truite fumée de la Commanderie</div>
+            <div class="price">7 €</div>
+        </div>
+    </div>
+
+    <div class="menu-section">
+        <h2>Le coin des petits Alsaciens</h2>
+        <div class="menu-item">
+            <div class="description">Mini flammekueche (au choix)</div>
+            <div class="price">8.50 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Nuggets maisons avec frites et compote</div>
+            <div class="price">8.50 €</div>
+        </div>
+    </div>
+
+    <div class="menu-section">
+        <h2>Les desserts</h2>
+        <div class="menu-item">
+            <div class="description">Glaces de la Ferme de Gérard-Sart (Chocolat, vanille ou fraise) - 1 boule</div>
+            <div class="price">3 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Glaces de la Ferme de Gérard-Sart (Chocolat, vanille ou fraise) - 2 boules</div>
+            <div class="price">5 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Dame blanche ou brésilienne</div>
+            <div class="price">8 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Flammekueche pomme-cannelle</div>
+            <div class="price">10 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Flammekueche poire-chocolat</div>
+            <div class="price">10 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Coupe enfant et ses décos "chiques" (Chocolat, vanille ou fraise)</div>
+            <div class="price">2 boules 5 €</div>
+        </div>
+    </div>
+</article>
+<article class="menu">
+    <h2 id="boissons">Carte des boissons</h2>
+    <div class="menu-section">
+        <h2>Les Apéritifs</h2>
+        <div class="menu-item">
+            <div class="description">Martini blanc/rouge</div>
+            <div class="price">4.50 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Apérol (Spritz alsacien de la Distillerie Meyer)</div>
+            <div class="price">8 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Blanc coca/orange</div>
+            <div class="price">3.60 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Kir Royal de la Distillerie Meyer</div>
+            <div class="price">5.50 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Pastis de la Distillerie Meyer</div>
+            <div class="price">4.60 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Gin Tonic de la Distillerie Meyer</div>
+            <div class="price">8 €</div>
+        </div>
+    </div>
+    <div class="menu-section">
+        <h2>Les Bières</h2>
+        <div class="menu-item">
+            <div class="description">Jupiler</div>
+            <div class="price">2.30 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Liefman fruitée</div>
+            <div class="price">3.50 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Peak blonde</div>
+            <div class="price">4.10 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Peak triple</div>
+            <div class="price">4.30 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Val-Dieu blonde</div>
+            <div class="price">4 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Val-Dieu brune</div>
+            <div class="price">4.20 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Brice (Grain d'orge)</div>
+            <div class="price">4 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">La Pomme (Grain d'orge)</div>
+            <div class="price">4 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Warsage Triple</div>
+            <div class="price">4.30 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Aubel Pure IPA</div>
+            <div class="price">4 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Aubel Pomme-Cerise</div>
+            <div class="price">4 €</div>
+        </div>
+    </div>
+    <div class="menu-section">
+        <h2>Vins Alsaciens</h2>
+        <div class="menu-item">
+            <div class="description">Pinot Gris (Verre / Bouteille)</div>
+            <div class="price">4.50 € / 27 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Pinot Noir (Verre / Bouteille)</div>
+            <div class="price">4.50 € / 27 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Pinot Noir au fût de chêne "Les Amandiers" (Verre / Bouteille)</div>
+            <div class="price">5 € / 28 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Riesling (Verre / Bouteille)</div>
+            <div class="price">4.50 € / 27 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Crémant Brut (Verre / Bouteille)</div>
+            <div class="price">5 € / 30 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Gewurtztraminer (Verre / Bouteille)</div>
+            <div class="price">4.50 € / 27 €</div>
+        </div>
+    </div>
+    <div class="menu-section">
+        <h2>Vins d'Ailleurs</h2>
+        <div class="menu-item">
+            <div class="description">Bardolino (Verre / Bouteille)</div>
+            <div class="price">4.50 € / 25 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Valpolicela (Verre / Bouteille)</div>
+            <div class="price">5 € / 28 €</div>
+        </div>
+    </div>
+    <div class="menu-section">
+        <h2>Les Digestifs</h2>
+        <div class="menu-item">
+            <div class="description">Poire William Grande Réserve (45%)</div>
+            <div class="price">5 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Mirabelle Grande Réserve (45%)</div>
+            <div class="price">5 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Framboise Grande Réserve (45%)</div>
+            <div class="price">5 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Marc d'Alsace de Gewurz Grande Réserve (45%)</div>
+            <div class="price">5 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Whisky Meyer's Blend (40%)</div>
+            <div class="price">5 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Liqueur de café (18%)</div>
+            <div class="price">5 €</div>
+        </div>
+    </div>
+    <div class="menu-section">
+        <h2>Les Softs</h2>
+        <div class="menu-item">
+            <div class="description">Eau plate</div>
+            <div class="price">2.20 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Eau pétillante</div>
+            <div class="price">2.20 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Jus d'orange</div>
+            <div class="price">2.50 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Jus de pomme (Pom One)</div>
+            <div class="price">2.50 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Jus de pomme-fraise (Pom One)</div>
+            <div class="price">2.50 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Limonade/Orangeade</div>
+            <div class="price">2.50 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Coca</div>
+            <div class="price">2.60 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Coca zéro</div>
+            <div class="price">2.60 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Ice Tea</div>
+            <div class="price">2.60 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Ice Tea Pêche</div>
+            <div class="price">2.60 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Liégeois</div>
+            <div class="price">2.60 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Eau avec grenadine</div>
+            <div class="price">2.20 €</div>
+        </div>
+    </div>
+
+    <div class="menu-section">
+        <h2>Les Boissons Chaudes</h2>
+        <div class="menu-item">
+            <div class="description">Café</div>
+            <div class="price">2.30 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Expresso</div>
+            <div class="price">2.30 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Déca</div>
+            <div class="price">2.30 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Café Viennois</div>
+            <div class="price">2.60 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Café Viennois noisette</div>
+            <div class="price">2.70 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Chocolat chaud</div>
+            <div class="price">2.60 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Chocolat Viennois</div>
+            <div class="price">3 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Thé (diverses sortes)</div>
+            <div class="price">2.60 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Irish Coffee</div>
+            <div class="price">8 €</div>
+        </div>
+    </div>
+    <div class="menu-section">
+        <h2>Les sans alcool</h2>
+        <div class="menu-item">
+            <div class="description">Vin sans alcool (Rouge, blanc, rosé, bulles)</div>
+            <div class="price">4.50 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Apérol 0%</div>
+            <div class="price">7 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Pisang orange 0%</div>
+            <div class="price">4 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Carlsberg 0%</div>
+            <div class="price">3.30 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Liefmans fruitée 0%</div>
+            <div class="price">3.50 €</div>
+        </div>
+    </div>
+    <div class="menu-section">
+        <h2>Autres alcools</h2>
+        <div class="menu-item">
+            <div class="description">Amaretto</div>
+            <div class="price">4.60 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Baileys</div>
+            <div class="price">4.60 €</div>
+        </div>
+        <div class="menu-item">
+            <div class="description">Captain Morgan brun</div>
+            <div class="price">4.60 €</div>
+        </div>
+    </div>
+</article>
+{% endblock %}

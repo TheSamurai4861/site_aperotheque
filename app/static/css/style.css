@@ -1,0 +1,97 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 35px;
+}
+
+header a,
+img {
+    display: block;
+    height: 90px;
+    object-fit: contain;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-weight: 400;
+}
+
+h1 {
+    margin: 25px 0;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.menu {
+    margin: 40px auto;
+    background-color: rgb(66, 66, 66);
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 10px auto;
+}
+
+.menu-item {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay noir avec opacité de 50% */
+    z-index: 1; /* Place l'overlay au-dessus du fond */
+}
+
+footer {
+    position: relative; /* Nécessaire pour que l'overlay s'aligne sur le footer */
+    background-image: url("../images/footer.jpg"); /* Remplacez par le bon chemin */
+    background-size: cover; /* Ajuste la taille de l'image au naturel */
+    padding: 50px 20px;
+    text-align: center;
+    color: white; /* Couleur de texte adaptée */
+    overflow: hidden; /* Empêche l'overlay de dépasser le footer */
+}
+
+footer article {
+    position: relative;
+    z-index: 2; /* Place le contenu au-dessus de l'overlay */
+}
+
